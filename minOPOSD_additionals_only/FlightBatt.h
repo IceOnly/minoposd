@@ -32,14 +32,14 @@
 #define FLIGHT_BATT_H_
 
 
-#define VOLTAGE_PIN			6
-#define CURRENT_PIN			7
+#define VOLTAGE_PIN			A2
+#define CURRENT_PIN			A1
 
 #define REF_VOLTAGE			1.1			// INTERNAL: a built-in reference, equal to 1.1 volts on the ATmega168 or ATmega328
 #define LOW_VOLTAGE			9.6			// filter start value for 3s LiPo
 
 
-#define VOLT_DIV_RATIO			15.55			// Vref 1.1V based: This is the start value for calibrating a 16k0/1k1 voltage divider usable up to 4s LiPo
+#define VOLT_DIV_RATIO			15.67			// Vref 1.1V based: This is the start value for calibrating a 16k0/1k1 voltage divider usable up to 4s LiPo
 
 // !!! for the +-50A Current Sensor(AC/DC) DFRobot SEN0098 we need approx. a 1/4 voltage divider 3k0/1k1 so that we stay below 1.1 V -> 2*50A * 0.04V/A / (4.1/1.1) = 1.073 V !!!
 #define CURR_AMP_PER_VOLT		100.00			// Vref 1.1V based: This is the start value for calibrating a +-50A Current Sensor(AC/DC) DFRobot SEN0098 Sensitivity: 40 mV/A
