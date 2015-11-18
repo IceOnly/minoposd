@@ -13,10 +13,12 @@ Pin 24 or 25 (A1 or A2) are a good choice as they are more accessible for solder
 Connect your receiver RSSI output to the selected port on the ATmega 328p **through a voltage divider**. The divider needs to be calculated to deliver 1.1V at maximum RSSI.
 
 Example: if your RSSI signal delivered by the receiver is 0-3.3V, you can use the following divider (values from a standard E12 set):
-|    | **value** |
-|:---|:----------|
-| [R1](https://code.google.com/p/minoposd/source/detail?r=1) | 100kOhm   |
-| [R2](https://code.google.com/p/minoposd/source/detail?r=2) |  47kOhm   |
+
+    | **value** 
+----------|----------
+[R1](https://code.google.com/p/minoposd/source/detail?r=1) | 100kOhm
+[R2](https://code.google.com/p/minoposd/source/detail?r=2) |  47kOhm
+
 (You can add a 100nF capacitor to act as filter).
 
 ### Case 2: Receiver provides PWM RSSI ###
@@ -29,11 +31,12 @@ Just as for the pure analog case we still have to divide the voltage to end in t
 Here is an RC filter / divider which works nicely for the [FrSky](http://www.frsky-rc.com) receivers:
 
 ![images/AnalogRSSI_001.png](images/AnalogRSSI_001.png)
-|    | **value** |
-|:---|:----------|
-| [R4](https://code.google.com/p/minoposd/source/detail?r=4) | 110kOhm   |
-| [R8](https://code.google.com/p/minoposd/source/detail?r=8) |  47kOhm   |
-| C4 | 100nF     |
+
+    | **value**
+---|:----------
+ [R4](https://code.google.com/p/minoposd/source/detail?r=4) | 110kOhm
+ [R8](https://code.google.com/p/minoposd/source/detail?r=8) |  47kOhm
+ C4 | 100nF
 
 If the PWM frequency or the output voltage of your receiver is not the same, the filter needs to be recalculated.
 
