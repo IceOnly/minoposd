@@ -28,7 +28,7 @@ Just as for the pure analog case we still have to divide the voltage to end in t
 
 Here is an RC filter / divider which works nicely for the [FrSky](http://www.frsky-rc.com) receivers:
 
-![http://minoposd.googlecode.com/svn/wiki/images/AnalogRSSI_001.png](http://minoposd.googlecode.com/svn/wiki/images/AnalogRSSI_001.png)
+![images/AnalogRSSI_001.png](images/AnalogRSSI_001.png)
 |    | **value** |
 |:---|:----------|
 | [R4](https://code.google.com/p/minoposd/source/detail?r=4) | 110kOhm   |
@@ -61,7 +61,7 @@ Calibration is done through the Configuration Tool.
 
 First you need to **check** the 'RSSI Enable Raw' check box
 
-![http://minoposd.googlecode.com/svn/wiki/images/AnalogRSSI_002.png](http://minoposd.googlecode.com/svn/wiki/images/AnalogRSSI_002.png)
+![images/AnalogRSSI_002.png](images/AnalogRSSI_002.png)
 
 This will show in the OSD the raw value of the signal (0-255 range).
 Save the tab, connect the OSD and note down the minimum (radio off) and the maximum (radio on) values.
