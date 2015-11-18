@@ -13,28 +13,28 @@ Not every panel is portet 1 to 1 compared to MinimOSD-Extra.
 
 System overview:
 
-![http://minoposd.googlecode.com/svn/wiki/images/SystemOverview.jpg](http://minoposd.googlecode.com/svn/wiki/images/SystemOverview.jpg)
+![images/SystemOverview.jpg](images/SystemOverview.jpg)
 
 
 The system mounted in the well-known Quadrixette 30:
 
-![http://minoposd.googlecode.com/svn/wiki/images/OSDQuadrixette30_001.jpg](http://minoposd.googlecode.com/svn/wiki/images/OSDQuadrixette30_001.jpg)
+![images/OSDQuadrixette30_001.jpg](images/OSDQuadrixette30_001.jpg)
 
-![http://minoposd.googlecode.com/svn/wiki/images/OSDQuadrixette30_002.jpg](http://minoposd.googlecode.com/svn/wiki/images/OSDQuadrixette30_002.jpg)
+![images/OSDQuadrixette30_002.jpg](images/OSDQuadrixette30_002.jpg)
 
-![http://minoposd.googlecode.com/svn/wiki/images/OSDQuadrixette30_003.jpg](http://minoposd.googlecode.com/svn/wiki/images/OSDQuadrixette30_003.jpg)
+![images/OSDQuadrixette30_003.jpg](images/OSDQuadrixette30_003.jpg)
 
-![http://minoposd.googlecode.com/svn/wiki/images/OSDQuadrixette30_004.jpg](http://minoposd.googlecode.com/svn/wiki/images/OSDQuadrixette30_004.jpg)
+![images/OSDQuadrixette30_004.jpg](images/OSDQuadrixette30_004.jpg)
 
-![http://minoposd.googlecode.com/svn/wiki/images/OSDQuadrixette30_005.jpg](http://minoposd.googlecode.com/svn/wiki/images/OSDQuadrixette30_005.jpg)
+![images/OSDQuadrixette30_005.jpg](images/OSDQuadrixette30_005.jpg)
 
 The version with the u-blox NEO-6M GPS:
 
-![http://minoposd.googlecode.com/svn/wiki/images/OSDQuadrixette30_006.jpg](http://minoposd.googlecode.com/svn/wiki/images/OSDQuadrixette30_006.jpg)
+![images/OSDQuadrixette30_006.jpg](images/OSDQuadrixette30_006.jpg)
 
 The V0.1 clone mounted in the famous OV3RQUAD: http://forums.openpilot.org/topic/13079-ov3rquad-open-source-diy-fpv-frame-for-all/
 
-![http://minoposd.googlecode.com/svn/wiki/images/OSDov3rquad_001.jpg](http://minoposd.googlecode.com/svn/wiki/images/OSDov3rquad_001.jpg)
+![images/OSDov3rquad_001.jpg](images/OSDov3rquad_001.jpg)
 
 
 Have fun
