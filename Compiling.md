@@ -16,8 +16,11 @@ http://code.google.com/p/minoposd/source/checkout
 And use the 'OSD Config Tool' from my code section trunk/Tools.
 
 
-Take the libs from one of the two other original projects http://code.google.com/p/arducam-osd/ and http://code.google.com/p/minimosd-extra/ .
+Take the libs from master repostiory.
 
+You need Arduino IDE 1.0.1 to compile the Project.
+Select "Arduino Nano /w ATmega328" as Board.
+Get the hex file from the temp compiling directory (you can see this directory if you enable "Show verbose output during compilation").
 
 The main add-ons to the original code can be found in the files:
 
