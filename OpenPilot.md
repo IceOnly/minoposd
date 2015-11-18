@@ -21,7 +21,7 @@ Over all hardware settings:
 | RcvrPort | whatever you are using |
 
 
-![http://minoposd.googlecode.com/svn/wiki/images/HWsettingsGPSTelemetry.jpg](http://minoposd.googlecode.com/svn/wiki/images/HWsettingsGPSTelemetry.jpg)
+![images/HWsettingsGPSTelemetry.jpg](images/HWsettingsGPSTelemetry.jpg)
 
 
 Currently the best results for GPS were found using 38400 baud and an update rate of 5Hz.
@@ -41,13 +41,13 @@ In this example I'm using NMEA for the LOCOSYS LS20033 GPS. If you are using the
 
 (find a config file for the u-blox NEO-6M here: http://code.google.com/p/minoposd/source/browse/#svn%2Ftrunk%2Fconfigs )
 
-![http://minoposd.googlecode.com/svn/wiki/images/GPSSettings.jpg](http://minoposd.googlecode.com/svn/wiki/images/GPSSettings.jpg)
+![images/GPSSettings.jpg](images/GPSSettings.jpg)
 
 You also have to enable GPS under HWSettings OptionalModules.
 
 It is a good idea to enable the ComUsbBridge at this stage, so you can configure your GPS using the CC3D as virtual com port later.
 
-![http://minoposd.googlecode.com/svn/wiki/images/HWsettingsOptionalModules.jpg](http://minoposd.googlecode.com/svn/wiki/images/HWsettingsOptionalModules.jpg)
+![images/HWsettingsOptionalModules.jpg](images/HWsettingsOptionalModules.jpg)
 
 
 
@@ -57,7 +57,7 @@ It is a good idea to enable the ComUsbBridge at this stage, so you can configure
 
 Double check if the AttitudeActual Flight Telemetry Update Period is 100ms.
 
-![http://minoposd.googlecode.com/svn/wiki/images/AttitudeActual.jpg](http://minoposd.googlecode.com/svn/wiki/images/AttitudeActual.jpg)
+![images/AttitudeActual.jpg](images/AttitudeActual.jpg)
 
 
 
@@ -67,7 +67,7 @@ Double check if the AttitudeActual Flight Telemetry Update Period is 100ms.
 
 To have a faster response to your RC inputs you have to change the ManualControlCommand Flight Telemetry Update Period to 500ms.
 
-![http://minoposd.googlecode.com/svn/wiki/images/ManualControlCommand.jpg](http://minoposd.googlecode.com/svn/wiki/images/ManualControlCommand.jpg)
+![images/ManualControlCommand.jpg](images/ManualControlCommand.jpg)
 
 
 
@@ -77,7 +77,7 @@ To have a faster response to your RC inputs you have to change the ManualControl
 
 If you like a faster OSD panel update of GPS position changes you can change the GPSPosition Flight Telemetry Update Period to 200ms.
 
-![http://minoposd.googlecode.com/svn/wiki/images/GPSPosition.jpg](http://minoposd.googlecode.com/svn/wiki/images/GPSPosition.jpg)
+![images/GPSPosition.jpg](images/GPSPosition.jpg)
 
 
 
@@ -87,7 +87,7 @@ If you like a faster OSD panel update of GPS position changes you can change the
 
 If you like a faster OSD panel update of GPS velocity changes you can change the GPSVelocity Flight Telemetry Update Period to 200ms.
 
-![http://minoposd.googlecode.com/svn/wiki/images/GPSVelocity.jpg](http://minoposd.googlecode.com/svn/wiki/images/GPSVelocity.jpg)
+![images/GPSVelocity.jpg](images/GPSVelocity.jpg)
 
 
 
@@ -101,4 +101,4 @@ More about using ComBridge of CC3D can be found in the OpenPilot wiki http://wik
 
 Set the ComUsbBridge speed to the speed your GPS is using.
 
-![http://minoposd.googlecode.com/svn/wiki/images/HWsettingsComBridge.jpg](http://minoposd.googlecode.com/svn/wiki/images/HWsettingsComBridge.jpg)
+![images/HWsettingsComBridge.jpg](images/HWsettingsComBridge.jpg)
