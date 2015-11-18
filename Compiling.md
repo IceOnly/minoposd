@@ -9,13 +9,6 @@ A good entry point for how to flash the code is here: http://code.google.com/p/a
 
 But don't use their hex file of course, but compile the right one for minOPOSD.
 
-The code is here:
-
-http://code.google.com/p/minoposd/source/checkout
-
-And use the 'OSD Config Tool' from my code section trunk/Tools.
-
-
 Take the libs from master repostiory.
 
 You need Arduino IDE 1.0.1 to compile the Project.
